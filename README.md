@@ -1,9 +1,10 @@
 # Harlo-Python
 
 **Important Git Command**
-* `git diff`
+* `git diffS`
 * `git status`
 * `git log`
+* `git pull`S
 
 ---
 
