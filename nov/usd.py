@@ -1,0 +1,2 @@
+usd = 'jk'
+print('usd')

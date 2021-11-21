@@ -1,0 +1,2 @@
+myr = "RM"
+print('myr')
