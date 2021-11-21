@@ -1,2 +1,0 @@
-myr = "RM"
-print('myr')

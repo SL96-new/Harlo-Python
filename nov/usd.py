@@ -1,2 +1,0 @@
-usd = 'jk'
-print('usd')
