@@ -7,6 +7,9 @@ Places to get started and learning to code with Python for a non-programmer.
 * `git status`
 * `git log`
 * `git pull`
+* `git add`
+* `git commit`
+* `git push`
 
 ---
 
