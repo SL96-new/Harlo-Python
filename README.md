@@ -3,6 +3,8 @@
 Places to get started and learning to code with Python for a non-programmer.
 
 **Important Git Command**
+* `git init`
+* `git clone`
 * `git diff`
 * `git status`
 * `git log`
