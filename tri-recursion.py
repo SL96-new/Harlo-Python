@@ -13,16 +13,6 @@ def tri_recursion(k):
 print("\n\nRecursion Example Results")
 tri_recursion(6)
 
-
-def tri_recursion(k):
-  if(k > 0):
-    result = k + k - 1        
-    print(result)
-  else:
-    result = 0
-  return result
-
-
 '''
 k chain:
 6 --> 5 --> 4 --> 3 --> 2 --> 1 --> 0
