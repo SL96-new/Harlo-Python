@@ -14,7 +14,7 @@ class Restaurant():
     def number_served(self):
         print ("This restaurant have served " + str(self.number_served) + " people.")
     
-    def set_number_served (self,number):
+    def set_number_served (self, number):
         if number >= self.number_served:
             self.number_served = number
         else:
@@ -27,14 +27,33 @@ class Restaurant():
             print ("There are no decreases in number of people served!")
         
 
-sushi_mentai = Restaurant("sushi mentai","Japanese")
-sushi_mentai.describe_restaurant()
-sushi_mentai.open_restaurant()
-sushi_mentai.set_number_served(2500)
-sushi_mentai.number_served()
-sushi_mentai.increment_number_served (52)
-sushi_mentai.number_served()
+# sushi_mentai = Restaurant("sushi mentai","Japanese")
+# sushi_mentai.describe_restaurant()
+# sushi_mentai.open_restaurant()
+# sushi_mentai.set_number_served(2500)
+# sushi_mentai.number_served()
+# sushi_mentai.increment_number_served (52)
+# sushi_mentai.number_served()
 
-twopesos = Restaurant ("two pesos","steamboat")
-twopesos.describe_restaurant()
-twopesos.open_restaurant()
+# twopesos = Restaurant ("two pesos","steamboat")
+# twopesos.describe_restaurant()
+# twopesos.open_restaurant()
+
+# 9-6 Inheritance 
+flavors = []
+
+class IceCreamStand(Restaurant):
+    def __init__ (self, restaurant_name, cuisine_type, *flavor):
+        super().__init__ (restaurant_name, cuisine_type)
+        self.flavors = flavor
+        flavors.append(flavor)
+    
+    def flavors_menu(*flavor):
+        print ("There are flavors as following: ")
+        for flavor in flavors:
+            print (flavor)
+
+baskin_robbin = IceCreamStand ("basin robbin","Ice-cream","Mints","Choclate","Peanut Butter","Strawberry")
+baskin_robbin.describe_restaurant()
+baskin_robbin.open_restaurant()
+baskin_robbin.flavors_menu()
