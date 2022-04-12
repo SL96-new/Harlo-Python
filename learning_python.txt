@@ -1,0 +1,6 @@
+In Python you can create list
+In Python you can create tuple
+In Python you can create dictionary
+In Python you can use while loop depend on condition
+In Python you can use for loop go through each items
+In Python you can do everything you want!
