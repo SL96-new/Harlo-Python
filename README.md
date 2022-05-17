@@ -19,6 +19,8 @@ Places to get started and learning to code with Python for a non-programmer.
 
 Learning Python using "Beginning Python with Program for Dummies", 2nd edition, by John Paul Mueller
 
+Python Crash Course ‘A Hands-on, Project-Based Introduction to Programming, by Eric Mattes
+
 **Note** that instead of using Jupyter Notebook with Anaconda, Google Colab is use for learning purpose
 
 # Current Agenda
@@ -26,6 +28,7 @@ Learning Python using "Beginning Python with Program for Dummies", 2nd edition, 
 - [ ] Learn Markdown for GitHub & Colab
 - [ ] Start with Part 2
 - [ ] Finish up Chapter 6
+- [ ] Finish Python Crash Course 
 
 # Documentation
 
